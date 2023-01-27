@@ -1,8 +1,10 @@
 Einfaches Beispiel für den IBM log4j Node vom IBM IAM 3 Support Pack (https://github.com/ot4i/node-for-log4j)
 
-Für die Installation vom Node innerhalb vom Toolkit bitte der offiziellen Dokumentation folgen. 
+## Setup der Log4J2 Funktionen im Toolkit 
+- bitte deroffiziellen Dokumentation des IAM 3 Support Packs folgen. 
 
-Für das Setup der Runtime (Integration Node / Integration Server) sind folgende Schritte notwendig
+## Setup der Log4J2 Funktinalität in der Runtime (Integration Node / Integration Server) 
+Folgende Schritte sind notwendig: 
 
 1.) Cleanup der folgenden Verzeichnisse - löschen aller IAM 3 relevanten Dateien (par, jars, log4j2 configs etc.) 
 - <MQSI\shared-classes> - Beispiel C:\ProgramData\IBM\MQSI\shared-classes
