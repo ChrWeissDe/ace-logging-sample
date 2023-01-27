@@ -1,7 +1,7 @@
 Einfaches Beispiel für den IBM log4j Node vom IBM IAM 3 Support Pack (https://github.com/ot4i/node-for-log4j)
 
 ## Setup der Log4J2 Funktionen im Toolkit 
-- bitte deroffiziellen Dokumentation des IAM 3 Support Packs folgen. 
+- bitte der offiziellen Dokumentation des IAM 3 Support Packs folgen. 
 
 ## Setup der Log4J2 Funktinalität in der Runtime (Integration Node / Integration Server) 
 Folgende Schritte sind notwendig: 
@@ -25,12 +25,3 @@ Folgende Schritte sind notwendig:
 <MQSI\shared-classes> - Beispiel C:\ProgramData\IBM\MQSI\shared-classes
 <ACE-INSTALL\server\classes> - Beispiel C:\Program Files\IBM\ACE\12.0.6.0\server\classes
 
-
-
-
-Aktuelle Limitierungen bei ACE 12.0.6 (bekannte Issues, an den von der IBM gearbeitet wird): 
-- Log4JNode: 
-  - keine Verwendung vom Debug Level möglich 
-  - aktuell kann kein Pfad bei den log4jnodes für die log4j2 Properties Datei mitgegeben werden 
-- ESQL Logging 
-  - aktuell ClassNotFoundIssues; auch die Problemlösung von https://github.com/ot4i/node-for-log4j/issues/4 hat nicht funktioniert.  
