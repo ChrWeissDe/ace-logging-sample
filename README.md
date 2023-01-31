@@ -23,7 +23,7 @@ Folgende Schritte sind notwendig:
 
 5.) Kopieren der neuen Log4jLoggingNode_v2.0.1.jar Datei nach:      
 - <MQSI\shared-classes> - Beispiel C:\ProgramData\IBM\MQSI\shared-classes     
-- <ACE-INSTALL\server\classes> - Beispiel C:\Program Files\IBM\ACE\12.0.6.0\server\classes
+- <ACE-INSTALL\server\jplugin> - Beispiel C:\Program Files\IBM\ACE\12.0.6.0\server\classes
 
 ## log4j2 Konfig Datei 
 - Beispiel siehe brokerlog.xml 
