@@ -21,9 +21,9 @@ Folgende Schritte sind notwendig:
 - Erstellung einer neuen jar Datei (zip) innerhalb vom ausgepackten "classes Verzeichnis"; Inhalt der zip Datei: Verzeichnis org und META-INF 
 - Bennenung der jar Datei: Log4jLoggingNode_v2.0.1.jar Datei  
 
-5.) Kopieren der neuen Log4jLoggingNode_v2.0.1.jar Datei nach: 
-<MQSI\shared-classes> - Beispiel C:\ProgramData\IBM\MQSI\shared-classes
-<ACE-INSTALL\server\classes> - Beispiel C:\Program Files\IBM\ACE\12.0.6.0\server\classes
+5.) Kopieren der neuen Log4jLoggingNode_v2.0.1.jar Datei nach:      
+- <MQSI\shared-classes> - Beispiel C:\ProgramData\IBM\MQSI\shared-classes     
+- <ACE-INSTALL\server\classes> - Beispiel C:\Program Files\IBM\ACE\12.0.6.0\server\classes
 
 ## log4j2 Konfig Datei 
 - Beispiel siehe brokerlog.xml 
